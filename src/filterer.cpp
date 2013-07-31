@@ -93,6 +93,7 @@ void filterer::analyze(vector<scan*> &sec, parameters &params)
 				p.intn = sec.at(i)->intn.at(j);
 				p.exact_mz = sec.at(i)->mz.at(j);
 				p.mz = round_int(sec.at(i)->mz.at(j));
+				p.rank = 1000; // ROMAN ZENKA - 2013-07-31 - intializing the rank
 				sec.at(i)->peaks.push_back(p);
 			}
 			sec.at(i)->num_peaks = sec.at(i)->peaks.size();

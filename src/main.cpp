@@ -239,7 +239,8 @@ int main(int argc, char *argv[])
 }
 
 int usage() {
-	printf("\nmsmsEval 1.3 (03-Aug-07) \nby Jason W. H. Wong, Cartwright Lab, PTCL, Univeristy of Oxford, 2006-7\n");
+	// ROMAN ZENKA 2013-07-31 (added note about bug fixes)
+	printf("\nmsmsEval 1.3.01 (03-Aug-07) \nby Jason W. H. Wong, Cartwright Lab, PTCL, Univeristy of Oxford, 2006-7, minor bugfix by Roman Zenka\n");
 	printf("\nUsage:msmsEval <-s source_file> <-d param_file>[-t target_dir][-l bad_filename]\n");
 	printf("       	          [-f found_scans][-o eval_output_file][-m em_output_file]\n");
 	printf("       	          [-p pF probability][-r remove probability]\n");

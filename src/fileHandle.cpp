@@ -115,7 +115,7 @@ int fileHandle::importFile(char *_filename, int isMZXML)
 		}
 		fclose(pStream);
 	}
-	delete pValue;
+	delete [] pValue; // ROMAN ZENKA 2013-07-31 - mismatched new[] - delete()
 
 
 // Start section of code from XTandem

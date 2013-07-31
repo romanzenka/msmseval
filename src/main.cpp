@@ -164,7 +164,8 @@ int main(int argc, char *argv[])
   else if (pVal <= 0)
 	pVal = 0;
 
-  cout << "\nmsmsEval 1.3 (03-Aug-07) \nby Jason W. H. Wong, Cartwright Lab, PTCL, University of Oxford, 2006-7"<<endl<<endl;
+  // ROMAN ZENKA 2013-07-31 (added note about bug fixes)
+  cout << "\nmsmsEval 1.3.01 (03-Aug-07) \nby Jason W. H. Wong, Cartwright Lab, PTCL, University of Oxford, 2006-7, minor bugfix by Roman Zenka"<<endl<<endl;
 
  	fileHandle fHandle;
  	filterer filter;

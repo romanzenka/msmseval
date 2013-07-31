@@ -135,6 +135,11 @@ The End
 #include "fileHandle.h"
 #include <string>	// strcpm
 #include <vector>
+// ROMAN ZENKA 2013-07-31 BEGIN 
+// making code compile on CentOS
+#include <string.h>
+#include <stdint.h>
+// ROMAN ZENKA 2013-07-31 END
 
 /**
 * eXpat SAX parser wrapper.
